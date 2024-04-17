@@ -1,0 +1,20 @@
+define user express greeting
+  "hello"
+  "hi"
+
+define user request help
+  "I need help with something."
+  "I need your help."
+
+define bot express greeting
+  "Hello there, $name!"
+
+define bot ask welfare
+  "How are you feeling today?"
+
+define bot ask name
+    "What is your name?"
+
+define flow greeting
+    user express greeting
+    bot express greeting

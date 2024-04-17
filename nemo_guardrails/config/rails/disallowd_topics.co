@@ -1,0 +1,21 @@
+define user express greeting
+    "hello"
+    "hi"
+    "what's up?"
+
+define bot express greeting
+    "I am a bot, how can I help you?"
+
+define user ask travel
+  "Best places to visit"
+
+define bot express refuse
+  "I am sorry, I cannot answer that question"
+
+define flow greeting
+    user express greeting
+    bot express greeting
+
+define flow
+  user ask travel
+  bot express refuse
