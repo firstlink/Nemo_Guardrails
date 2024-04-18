@@ -1,7 +1,7 @@
 from nemoguardrails import RailsConfig, LLMRails
 import os
 
-os.environ["OPENAI_API_KEY"] = "<OpenAI-API-Key>"
+os.environ["OPENAI_API_KEY"] = "OpenAI-API-Key"
 config = RailsConfig.from_path("./config")
 llm_rail = LLMRails(config)
 

@@ -3,7 +3,7 @@ import os
 
 
 def main():
-    os.environ["openai_api_key"] = "<OpenAI-API-Key>"
+    os.environ["openai_api_key"] = "OpenAI-API-Key"
     config = RailsConfig.from_path("./config")
     rails = LLMRails(config)
     response = rails.generate(messages=[
