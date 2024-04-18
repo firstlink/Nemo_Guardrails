@@ -8,8 +8,9 @@ This repository contains examples of Nemo Guardrails.
 
 ## Installation
 ***
-To install the required dependencies, you can use pipenv. First, make sure you have `Pipenv` installed on your system. Then, navigate to the root directory of this project and run:
-`pipenv install`
+To install the required dependencies, you can use pipenv.  
+1. Make sure you have `Pipenv` installed on your system.  
+2. Navigate to the root directory of this project and run: `pipenv install`
 
 ## Dependencies 
 ***
@@ -29,4 +30,4 @@ To configure OpenAI's GPT, follow these steps:
 ### Run program  
 
 1. From your terminal navigate to root project  
-2. python3 run_guardrails.py
+2. pipenv run python run_guardrails.py
