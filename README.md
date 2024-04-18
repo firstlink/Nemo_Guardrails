@@ -7,7 +7,7 @@ Introduction to Nemo Guardrails framework
 This repository contains examples of Nemo Guardrails.
 
 ## Installation
-***
+
 To install the required dependencies, you can use pipenv.  
 1. Make sure you have `Pipenv` installed on your system.  
 2. Navigate to the root directory of this project and run: `pipenv install`
