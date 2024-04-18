@@ -1,9 +1,9 @@
 # Nemo_Guardrails  
-***
+
 Introduction to Nemo Guardrails framework  
 
 ## Description  
-***
+
 This repository contains examples of Nemo Guardrails.
 
 ## Installation
@@ -13,12 +13,12 @@ To install the required dependencies, you can use pipenv.
 2. Navigate to the root directory of this project and run: `pipenv install`
 
 ## Dependencies 
-***
+
 * nemoguardrails = "0.4.0"
 * openai = "0.27.8"
 
 ## Getting Started
-***
+
 ### OpenAI Configuration Steps
 
 To configure OpenAI's GPT, follow these steps:
